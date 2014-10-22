@@ -1,0 +1,25 @@
+<div class="ewf-row">
+	<div class="ewf-span4">
+	
+		[text* your-name placeholder "name"] 
+	
+	</div>
+	<div class="ewf-span4">
+	
+		
+		[email* your-email  placeholder "e-mail address"]
+	
+	</div>
+	<div class="ewf-span4">
+	
+		
+		[text* your-subject  placeholder "subject"]
+	
+	</div> 
+</div>
+
+
+    [textarea* your-message placeholder "message"]
+
+
+   [submit "Send"]

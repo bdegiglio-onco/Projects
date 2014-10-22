@@ -1,0 +1,15 @@
+== Diamond WP -Changelog ==
+
+= 1.0.1 - 17 Sept 2014 =
+
+* Added: background changer for footer top
+* Fixed: flickr widget not working on google chrome
+
+files changed from 1.0:
+
+	/framework/admin/admin-options.php (footer options)
+	/framework/widgets/widget-flickr.php (flickr api fix)
+
+= 1.0 - Sept 2014 =
+
+* Initial Release
