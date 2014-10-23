@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Route Documentation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Description">
+        <meta name="author" content="Autor">
+
+        <!-- loading the css -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+        <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+		<style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+         section {padding: 60px 0 0 0;}
+        </style>
+
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Various Icons (Favicon, Touch Icon,... -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico">
+        <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+
+    </head>
+
+
+
+    <body data-spy="scroll" data-target=".navbar" id="top">
+
+        <!-- ========================= NAVIGATION BAR >> START ========================= -->
+        <div class="navbar navbar-fixed-top navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+                    <a class="brand" href="#overview">Route</a><!-- TIP: Change this for the name of your file -->
+                    <div class="nav-collapse collapse navbar-inverse-collapse">
+                        <ul class="nav">
+                            <li><a href="#overview">Overview</a></li>
+                            <li><a href="#styles">Styles</a></li>
+                            <li><a href="#javascript">JavaScript</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Installation <b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#download">1. Download &amp; Organize Files</a></li>
+                                <li><a href="#install">2. Installing Theme</a></li>
+                                <li><a href="#activating">3. Activating Theme</a></li>
+                                <li><a href="#afterinstall">4. Things to Remember After Installation</a></li>
+                                <li><a href="#import">5. Import Demo Content</a></li>
+                                <li><a href="#updation">6. Theme Updation</a></li>
+                              </ul>
+                             </li>
+                             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Understanding Route Panel <b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#cs-top-bar">1. Top-Bar Options</a></li>
+                                <li><a href="#cs-header">2. Header Options</a></li>
+                                <li><a href="#cs-blog">3. Blog Options</a></li>
+                                <li><a href="#cs-skin">4. Skin Options</a></li>
+                                <li><a href="#cs-typography">5. Typography Options</a></li>
+                                <li><a href="#cs-sidebars">6. Sidebars Options</a></li>
+                                <li><a href="#cs-media">7. Media Options</a></li>
+                                <li><a href="#cs-custom-css">8. Custom CSS</a></li>
+                                <li><a href="#cs-export">9. Export/Import Options</a></li>
+                                <li><a href="#cs-extra">10. Extra Options</a></li>
+                              </ul>
+                             </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========================= NAVIGATION BAR >> END ========================= -->
+
+
+
+        <!-- ========================= MAIN CONTAINER >> START ========================= -->
+        <div class="container">
+
+            <!-- ========================= SECTION: OVERVIEW >> START ========================= -->
+            <section id="overview">
+
+                <div class="hero-unit">
+                    <h1>Route Documentation</h1>
+                    <p>Documentation Crafted by <a href="http://themeforest.net/user/Codestar" target="_blank">Codestar</a></p>
+                    <p class="well well-small">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/Codestar#contact" target="_blank">here</a>. Thanks so much!</p>
+                    <div class="row-fluid">
+                        <div class="span4"><a href="http://www.youtube.com/playlist?list=PLnJdp9u3mMdWoQJe74kp5zNbWuwgK22bN" class="btn btn-danger btn-large btn-block" target="_blank">Youtube Video Tutorials</a></div>
+                        <div class="span4"><a href="https://www.screenr.com/user/routewp" class="btn btn-primary btn-large btn-block" target="_blank">Screenr Video Channel</a></div>
+                        <div class="span4"><a href="http://support.codestarlive.com" class="btn btn-success btn-large btn-block" target="_blank">Support Forum</a></div>
+                    </div>
+                </div>
+                <hr />
+                <div class="row-fluid">
+                    <div class="span3">
+                        <table width="100%">
+                            <tr>
+                                <td>Author:</td>
+                                <td>Codestar</td>
+                            </tr>
+                            <tr>
+                                <td>Contact:</td>
+                                <td><a href="#nowhere">info@codestarlive.com</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="span3">
+                        <table width="100%">
+                            <tr>
+                                <td>Author URL:</td>
+                                <td><a href="http://codestarlive.com" target="_blank">http://codestarlive.com</a></td>
+                            </tr>
+                            <tr>
+                                <td>Support URL:</td>
+                                <td><a href="http://support.codestarlive.com/" target="_blank">Click for Support Forum</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="span3">
+                        <table width="100%">
+                            <tr>
+                                <td>Current Theme Version:</td>
+                                <td>1.2</td>
+                            </tr>
+                            <tr>
+                                <td>Documentation Version:</td>
+                                <td>1.0</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="span3">
+                        <table width="100%">
+                            <tr>
+                                <td>Created:</td>
+                                <td>11-08-2014</td>
+                            </tr>
+                            <tr>
+                                <td>Modified:</td>
+                                <td>13-09-2014</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <hr>
+
+            </section>
+            <!-- ========================= SECTION: OVERVIEW >> END ========================= -->
+
+
+
+            <!-- ========================= SECTION: MARKUP >> START ========================= -->
+
+
+
+
+            <!-- ========================= SECTION: STYLES >> START ========================= -->
+            <section id="styles">
+                <div class="page-header">
+                    <h1>Styles <small>Styles customization and highlights</small></h1>
+                </div>
+
+                <div class="alert alert-info"> <b>Heads up!</b> I'm using three CSS files in this theme. The first one is a generic styling file for theme. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file. </div>
+
+                <div class="row">
+                    <div class="span3">
+                        <h3>Stylesheets</h3>
+                        <p>Here's a list of the stylesheet files I'm using with this template, you can find more information opening each file:</p>
+                    </div>
+                    <div class="span9">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="span4">File Name</th>
+                                    <th class="span8">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>css/style.css</code></td>
+                                    <td>This file contains all the <strong>necessary styling rules for the theme,</strong> actually it's main css file for theme.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>css/vendor/animations.css</code></td>
+                                    <td><strong>CSS3 Animations</strong> A cross-browser library of CSS animations. </td>
+                                </tr>
+                                <tr>
+                                    <td><code>css/vendor/fancybox.css</code></td>
+                                    <td><strong>FancyBox</strong> jQuery Lightbox Alternative</td>
+                                </tr>
+                                <tr>
+                                    <td><code>css/vendor/font-awesome.css</code></td>
+                                    <td><strong>Font Awesome</strong>, the iconic font and CSS toolkit</td>
+                                </tr>
+                                <tr>
+                                    <td><code>css/vendor/grid.css</code></td>
+                                    <td><strong>Bootstrap 3.0</strong> Responsive grid system by Twitter</td>
+                                </tr>
+                                <tr>
+                                    <td><code>css/vendor/font-awesome.css</code></td>
+                                    <td><strong>Font Awesome</strong>, the iconic font and CSS toolkit</td>
+                                </tr>
+                                <tr>
+                                    <td><code>css/vendor/icomoon.css</code></td>
+                                    <td><strong>IcoMoon</strong>, the iconic font and CSS toolkit</td>
+                                </tr>
+                                <tr>
+                                    <td><code>css/vendor/non-responsive.css</code></td>
+                                    <td><strong>No Responsive</strong> for disable responsive mode</td>
+                                </tr>
+                                <tr>
+                                    <td><code>css/vendor/royalslider.css</code></td>
+                                    <td><strong>RoyalSlider</strong> Touch-Enabled jQuery Image Gallery</td>
+                                </tr>
+                                <tr>
+                                    <td><code>css/vendor/rtl.css</code></td>
+                                    <td><strong>RTL</strong> Right to Left Language Support</td>
+                                </tr>
+                                <tr>
+                                    <td><code>css/vendor/shortcodes.css</code></td>
+                                    <td><strong>Shortcodes</strong> for theme shortcodes</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row">
+                    <div class="span3">
+                        <h3>CSS Structure</h3>
+                        <p>The first file contains all of the specific stylings for the page. The file is separated into sections using:</p>
+                    </div>
+
+                    <div class="span9">
+
+<!-- Code Block >> Start -->
+<pre class="pre-scrollable prettyprint linenums">
+//
+// MAIN
+// css/style.css
+// ---------------------------
+01. NORMALIZE
+02. BASE
+03. LAYOUT
+04. BLOG
+05. WIDGETS
+06. PORTFOLIO
+07. HELPERS
+08. OTHERS
+
+//
+// SHORTCODES
+// css/vendor/shortcodes.css
+// ---------------------------
+01 BUTTON
+02 TAB
+03 ACCORDION
+04 TOGGLE
+05 ALERT
+06 CALLOUT
+07 ICONBOX
+08 FANCYBOX
+09 PROGRESS BAR
+10 COUNTER
+11 PIE CHART
+12 PROGRESS ICON
+13 BLOCKQUOTE
+14 TESTIMONIAL
+15 SOCIAL ICONS
+16 DIVIDER
+17 DROPCAP
+18 ICONLIST
+19 HIGHLIGHT
+20 CLIENT
+21 PRICING
+22 TABLE
+23 CODE-PRE
+24 TOOLTIP-POPOVER
+25 FAQ
+26 MAP
+27 SPACE
+28 DIVIDER-ICON
+29 CONTACT FORM 7
+30 LABEL
+31 CAROUSEL
+32 RECENT
+33 RESPONSIVE CONTAINER
+34 COUNTDOWN
+35 MODAL
+36 COLUMNS
+37 SECTION
+38 CLEAR
+39 OTHERS
+</pre>
+<!-- Code Block >> End -->
+
+                    </div>
+                </div>
+
+            </section>
+            <!-- ========================= SECTION: STYLES >> END ========================= -->
+
+
+
+            <!-- ========================= SECTION: JAVASCRIPT >> START ========================= -->
+            <section id="javascript">
+
+                <div class="page-header">
+                    <h1>JavaScript <small>JavaScript customization and highlights</small></h1>
+                </div>
+
+                <div class="row">
+                    <div class="span12">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="span3">Tag</th>
+                                    <th class="span9">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>jQuery</code></td>
+                                    <td>jQuery is a Javascript library that greatly reduces the amount of code that you must write.  by <strong><a href="http://jquery.com/" target="_blank">John Resig</a></strong></td>
+                                </tr>
+                                <tr>
+                                    <td><code>jquery.easing.js</code></td>
+                                    <td>A jQuery plugin from GSGD to give advanced easing options. by <strong><a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">George McGinley Smith</a></strong></td>
+                                </tr>
+                                <tr>
+                                    <td><code>jquery.superfish.js</code></td>
+                                    <td>Awesome multilevel dropdown menu plugin. by <strong><a href="http://users.tpg.com.au/j_birch/plugins/superfish/" target="_blank">Joel Birch</a></td>
+                                </tr>
+                                <tr>
+                                    <td><code>jquery.isotope.js</code></td>
+                                    <td>An exquisite jQuery plugin for magical layouts. by <strong><a href="http://isotope.metafizzy.co/" target="_blank">David DeSandro / Metafizzy</a></td>
+                                </tr>
+                                <tr>
+                                    <td><code>jquery.carouselfred.js</code></td>
+                                    <td>CarouFredSel is a plugin that turns any kind of HTML element into a carousel. by <strong><a href="http://caroufredsel.dev7studios.com/" target="_blank">Fred Heusschen</a></td>
+                                </tr>
+                                <tr>
+                                    <td><code>jquery.touchswipe.js</code></td>
+                                    <td>TouchSwipe is a jquery plugin to be used with jquery on touch input devices such. by <strong><a href="http://labs.skinkers.com/touchSwipe/" target="_blank">Matt Bryson</a></td>
+                                </tr>
+                                <tr>
+                                    <td><code>jquery.queryloader2.js</code></td>
+                                    <td>QueryLoader v2 - A simple script to create a preloader for images. by <strong><a href="http://www.gayadesign.com/diy/queryloader2-preload-your-images-with-ease/" target="_blank">Gaya Kessler</a></td>
+                                </tr>
+                                <tr>
+                                    <td><code>jquery.countdown.js</code></td>
+                                    <td>A jQuery plugin that sets a div or span to show a countdown to a given time.. by <strong><a href="http://keith-wood.name/countdown.html" target="_blank">Keith Wood</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>jquery.royalslider.js</code></td>
+                                  <td>Touch-Enabled jQuery Image Gallery. by <strong><a href="http://codecanyon.net/item/royalslider-touchenabled-jquery-image-gallery/461126" target="_blank">Dmitry Semenov</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>waypoints.js</code></td>
+                                  <td>Waypoints is a jQuery plugin that makes it easy to execute a function whenever you scroll to an element. by <strong><a href="http://imakewebthings.com/jquery-waypoints/" target="_blank">Caleb Troughton</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>jquery.hoverIntent.js</code></td>
+                                  <td>hoverIntent is a plug-in that attempts to determine the user's intent... like a crystal ball, only with mouse movement!. by <strong><a href="http://cherne.net/brian/resources/jquery.hoverIntent.html" target="_blank">Brian Cherne</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>jquery.mousewheel.js</code></td>
+                                  <td>A jQuery plugin that adds cross-browser mouse wheel support. by <strong><a href="http://brandon.aaron.sh" target="_blank">Brandon Aaron</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>easypiechart.js</code></td>
+                                  <td>Lightweight plugin to render simple, animated and retina optimized pie charts. by <strong><a href="https://github.com/rendro/easy-pie-chart" target="_blank">Robert Fleischmann</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>jquery.parallax.js</code></td>
+                                  <td>jQuery Parallax is a script that simulates the parallax effect. by <strong><a href="http://www.ianlunn.co.uk/plugins/jquery-parallax/" target="_blank">Ian Lunn</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>imagesloaded.js</code></td>
+                                  <td>Detect when images have been loaded. by <strong><a href="https://github.com/desandro/imagesloaded" target="_blank">David DeSandro</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>jquery.fancybox.js</code></td>
+                                  <td>Fancy jQuery Lightbox Alternative. by <strong><a href="http://fancyapps.com/fancybox/" target="_blank">Jānis Skarnelis</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>jquery.debouncedresize.js</code></td>
+                                  <td>Debounced and Throttled Resize Events for jQuery. by <strong><a href="http://louisremi.github.com/jquery-smartresize/demo/index.html" target="_blank">Louis-Rémi Babé</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>jquery.throttled.js</code></td>
+                                  <td>Debounced and Throttled Resize Events for jQuery. by <strong><a href="http://louisremi.github.com/jquery-smartresize/demo/index.html" target="_blank">Louis-Rémi Babé</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>bootstrap.js</code></td>
+                                  <td>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. by <strong><a href="http://getbootstrap.com/" target="_blank">Twitter</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>countUp.js</code></td>
+                                  <td>Animates a numerical value by counting to it. by <strong><a href="https://github.com/inorganik/countUp.js" target="_blank">Jamie Perkins</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>jquery.scrollTo.js</code></td>
+                                  <td>Easy element scrolling using jQuery.. by <strong><a href="https://github.com/flesler/jquery.scrollTo" target="_blank">Ariel Flesler</a></td>
+                                </tr>
+                                <tr>
+                                  <td><code>jquery.localScroll.js</code></td>
+                                  <td>Easy element scrolling using jQuery.. by <strong><a href="https://github.com/flesler/jquery.localScroll" target="_blank">Ariel Flesler</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </section>
+            <!-- ========================= SECTION: JAVASCRIPT >> END ========================= -->
+
+            <!-- ========================= SECTION: INSTALLATION >> START ========================= -->
+            <section id="download">
+               <div class="page-header">
+                  <h1>Installation <small>How to Install Route</small></h1>
+               </div>
+                <div class="row">
+                     <div class="span12">
+                        <h3>1) Download &amp; Organize Files</h3>
+                        <div class="alert alert-success">
+                       First of all thank you for purchasing our theme.Before going to the installation part, let us briefly discuss the internal structure of theme. After you download
+                           <strong>ZIP</strong> file from ThemeForest <strong>UNIZP</strong> that file, after unziping you see various structure of theme.
+
+                        </div>
+                        <ul class="custom_padding">
+                           <li><code>theme/route.zip</code> (Root file to install wordpress theme)</li>
+                           <li><code>theme/route/</code> (Directory use to install the wordpress theme via FTP)</li>
+                           <li>Documentation (Directory which includes theme documentaion file)</li>
+                           <li>Licensing (File which include information about wordpress &amp; theme under GPL liscense)</li>
+                           <li>Resources (Directory which includes <strong>fla file, xml dump, jquery file, etc</strong>)</li>
+                        </ul>
+                     </div>
+
+                </div>
+                <span id="install"></span>
+                <hr  id=""/>
+
+                <div class="row">
+
+                  <div class="span12">
+
+                     <h3>2) Installing Theme</h3>
+
+                        <div class="alert alert-success">
+                           This section will introduce <strong>how to install the wordpress theme</strong> by various methods, Basically there are two methods of installing wordpress theme. Let's introduce two ways briefly
+                        </div>
+                        <ul class="custom_padding">
+                           <li>Installing your theme <strong>via Wordpress</strong></li>
+                           <li>Installing your theme via <strong>FTP</strong></li>
+                        </ul>
+                        <hr />
+                        <h4>Installing your theme via Wordpress</h4>
+                        <ol class="custom_padding">
+                           <li>Login to your wordpress dashboard, go to <strong><i>WordPress Appearance -> Themes</i></strong> section.</li>
+                           <li>Click on Install Themes tab.</li>
+                           <li>Click on Choose File button, and select <code>.zip</code> theme file and click <i>Install Now</i> button.</li>
+                           <li>If you uploading process <strong>fails due to theme broken</strong> issues, then you may refer <a href="http://support.envato.com/index.php?/Knowledgebase/Article/View/269/0/my-wordpress-theme-isnt-working-what-should-i-do" target="_blank">here</a></li>
+                        </ol>
+                        <div class="alert"><strong>Note :</strong> This method will only work <strong>if your server allows space greater than 5 MB.</strong> Usually hosting providers provides only 2 MB</div>
+                        <hr />
+                        <h4>Installing your theme via FTP</h4>
+                        <ol class="custom_padding">
+                           <li>Download the Theme archive <code>.zip</code> from <a href="http://themeforest.net" target="_blank">ThemeForest</a> and extract <code>route.zip</code> the files it contains.</li>
+                           <li>Move extracted files to <code>/wp-content/themes/route</code> via <a href="http://codex.wordpress.org/FTP_Clients" target="_blank">FTP Clients</a></li>
+                           <li>For example theme <code>should be in wp-content/themes/route</code></li>
+                           <li>Follow the instruction <strong>below for activating</strong> the theme.</li>
+                        </ol>
+
+
+                     </div>
+
+                </div>
+                <span id="activating"></span>
+
+               <hr />
+               <div class="row">
+                  <div class="span12">
+                     <h3>3) Activating Theme</h3>
+                     <div class="alert alert-success">To select a Theme for your site</div>
+                     <ol class="custom_padding">
+                        <li>Log in to the WordPress <a href="http://codex.wordpress.org/Administration_Panels" target="_blank">Administration Panels.</a></li>
+                        <li>Select the <strong>Appearance panel</strong>, then Themes.</li>
+                        <li>From the <strong>Available Themes</strong> section, click on the <strong>route</strong> title (or route screenshot) to activate.</li>
+                        <li>A preview of the Theme will be shown.</li>
+                        <li>To activate the Theme click the Activate <strong>route</strong> link in the top right.</li>
+                     </ol>
+                  </div>
+               </div>
+               <span id="afterinstall"></span>
+               <hr />
+               <div class="row">
+                  <div class="span12">
+                     <h3>4) Things to Remember After Installation</h3>
+                     <div class="alert alert-success">After complete the installation, there is a <strong>crucial part you must finish.</strong> This part mainly operates your web site.</div>
+                     <div class="alert alert-error"><strong>Note :</strong> /wp-content/themes/route/cache/ with CHMOD777 Permission <strong>(if it does not work set CHMOD 755)</strong></div>
+                     <p>This is setting <strong>CACHE folder permission</strong>, also maintains many parts of the web site to work.For more information <a href="http://codex.wordpress.org/Changing_File_Permissions" target="_blank">check file permission mode.</a></p>
+                  </div>
+               </div>
+               <span id="import"></span>
+               <hr />
+               <div class="row">
+                  <div class="span12">
+                     <h3>5) Import Demo Content</h3>
+                     <div class="alert alert-success">We are <strong>providing you a XML file</strong>, which consists of all demo content included in live preview, <strong>so to activate this file</strong> follow these steps.</div>
+                     <ol class="custom_padding">
+                        <li>Find the <strong>resource folder</strong> inside the root folder of route Theme.</li>
+                        <li>Inside resource folder there are 3< files, <code>all-demo.xml</code> <code>pages-demo.xml</code> <code>posts-demo.xml</code></li>
+                        <li>If you want to include <strong>only pages</strong> then selecct <code>pages-demo.xml</code> or <strong>only posts</strong> then <code>posts-demo.xml</code> or select <code> all-demo.xml</code> for <strong>all demo</strong> content.</li>
+                     </ol>
+                  </div>
+               </div>
+               <span id="updation"></span>
+               <hr />
+               <div class="row">
+                  <div class="span12">
+                     <h3>6) Theme Updation</h3>
+                     <p>If you want further <strong>notice about updation of theme</strong>, then please follows us on <strong><a href="https://twitter.com/Codestarlive" target="_blank">twitter</a></strong> or constantly visit our <a href="http://support.codestarlive.com" target="_blank">support forum.</a></p>
+                  </div>
+               </div>
+
+               <hr />
+
+
+            </section>
+            <!-- ========================= SECTION: INSTALLATION >> END ========================= -->
+
+			<!-- ========================= SECTION: Option Panel >> START ========================= -->
+            <section id="cs-top-bar">
+               <div class="page-header">
+                  <h1>Option Panel <small>Understanding Route Panel</small></h1>
+               </div>
+
+               <div class="alert alert-info"> <b>Note :</b>
+                  Please remember that, it doesn't mean that we have included all set of features informations which is been provided by this theme, here we have included only overview of Rotue
+                  Panel, so please visit Route Panel for more information. There are much more handful options, and we hope you will love it !
+               </div>
+
+               <div class="row">
+                  <div class="span12">
+                     <h3>1) Top-Bar Options</h3>
+                         <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                  <th class="span3">#</th>
+                                  <th class="span9">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                  <td class="text-error"><strong>Top-Bar Enable</strong></td>
+                                  <td>Firstly, you can enable/disable top bar area. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                  <td class="text-error"><strong>Top-Bar Left Module</strong></td>
+                                  <td>You can add some pre-defined modules <strong>text</strong>, <strong>link</strong>, <strong>flags</strong>, <strong>login</strong>, <strong>search</strong> etc... For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                  <td class="text-error"><strong>Top Bar Right Module</strong></td>
+                                  <td>You can add some pre-defined modules <strong>text</strong>, <strong>link</strong>, <strong>flags</strong>, <strong>login</strong>, <strong>search</strong> etc... For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                  </div>
+               </div>
+
+               <span id="cs-header"></span>
+               <hr />
+               <div class="row">
+                  <div class="span12">
+                     <h3>2) Header Options</h3>
+                         <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                  <th class="span3">#</th>
+                                  <th class="span9">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-error"><strong>Site Logo</strong></td>
+                                    <td>You can upload/set a logo for your web site, or can be used text Logo. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Site Logo 2x</strong></td>
+                                    <td>This logo required for Retina-Ready, Actually that is <strong>optional</strong> you know. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Transparency Logo</strong></td>
+                                    <td>This logo required for Transparent header option <strong>(optional)</strong>. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Transparency Logo 2x</strong></td>
+                                    <td>This logo required for Retina-Ready, Actually that is <strong>optional</strong> you know. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Header Height</strong></td>
+                                    <td>You can set header height for bigger logo or bigger menu. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Header Height in Sticky</strong></td>
+                                    <td>This option for when header in sticky mode, set a minimal height for sticky. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Disable menu in max-width</strong></td>
+                                    <td>This option for Main Menu disable in responsive mode. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Header Style</strong></td>
+                                    <td>You have 3 different header style <strong>header-left</strong>, <strong>header-center</strong>, <strong>header-alternative</strong>. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                  </div>
+               </div>
+
+               <span id="cs-blog"></span>
+               <hr />
+               <div class="row">
+                  <div class="span12">
+                     <h3>3) Blog Options</h3>
+                         <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                  <th class="span3">#</th>
+                                  <th class="span9">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-error"><strong>Blog Type</strong></td>
+                                    <td>You have 5 different blog style for index-loop <strong>Blog Large Image</strong>, <strong>Blog Medium Image</strong>, <strong>Blog Small Image</strong>, <strong>Blog Masonry</strong>, <strong>Blog Grid</strong>. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Blog Sidebar</strong></td>
+                                    <td>You can set blog sidebar position or no sidebar <strong>Right Sidebar</strong>, <strong>Left Sidebar</strong>, <strong>No Sidebar</strong>, <strong>Blog Masonry</strong>, <strong>Blog Grid</strong>. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Blog Sidebar Widgets</strong></td>
+                                    <td>You can set custom widgets for your blog sidebar. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Blog Pagination Type</strong></td>
+                                    <td>This option for <strong>Load More</strong> or <strong>Hide</strong> for blog pagination. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Blog Image Size</strong></td>
+                                    <td>This option for Blog Post Featured Image size. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Blog Single Image Size</strong></td>
+                                    <td>This option for Blog Post Single Featured Image size. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Recent Posts Type</strong></td>
+                                    <td>This option for single page recent posts, you can set <strong>random</strong>, <strong>recent</strong>, <strong>releated</strong>, <strong>most loved</strong>, <strong>most commented</strong>. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                  </div>
+               </div>
+
+
+               <span id="cs-skin"></span>
+               <hr />
+               <div class="row">
+                  <div class="span12">
+                     <h3>4) Skin Options</h3>
+                         <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                  <th class="span3">#</th>
+                                  <th class="span9">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                  <td class="text-error"><strong>Default</strong></td>
+                                  <td>Default skin mode is using default style.css colors <strong>as default</strong>. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                  <td class="text-error"><strong>Accent Color</strong></td>
+                                  <td>Accent color mode is using <strong>WP Customize Panel</strong> accent color option. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                  <td class="text-error"><strong>Build own skin</strong></td>
+                                  <td>This option for all elements color, when you choose build own skin go to <strong>WP Customize Panel</strong> you will see all color options. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                  </div>
+               </div>
+
+
+               <span id="cs-typography"></span>
+               <hr />
+               <div class="row">
+                  <div class="span12">
+                     <h3>5) Typography Options</h3>
+                         <table class="table table-bordered table-striped">
+                            <thead>
+                              <tr>
+                                  <th class="span3">#</th>
+                                  <th class="span9">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-error"><strong>Body</strong></td>
+                                    <td>This option for body typography, you can use google font or websafe fonts. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Menu</strong></td>
+                                    <td>This option for Menu typography, you can use google font or websafe fonts. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Sub Menu</strong></td>
+                                    <td>This option for Sub Menu typography, you can use google font or websafe fonts. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Headings</strong></td>
+                                    <td>This option for h1, ... ,h6 typography, you can use google font or websafe fonts. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Subsets</strong></td>
+                                    <td>This option for special language characters, you can use it with google fonts. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                  </div>
+               </div>
+
+
+
+               <span id="cs-sidebars"></span>
+               <hr />
+               <div class="row">
+                  <div class="span12">
+                     <h3>6) Sidebars Options</h3>
+                         <table class="table table-bordered table-striped">
+                            <thead>
+                              <tr>
+                                  <th class="span3">#</th>
+                                  <th class="span9">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-error"><strong>Sidebars</strong></td>
+                                    <td>You can add unlimited of custom sidebar for any pages. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                  </div>
+               </div>
+
+               <span id="cs-media"></span>
+               <hr />
+               <div class="row">
+                  <div class="span12">
+                     <h3>7) Media Options</h3>
+                         <table class="table table-bordered table-striped">
+                            <thead>
+                              <tr>
+                                  <th class="span3">#</th>
+                                  <th class="span9">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-error"><strong>Add Image Size</strong></td>
+                                    <td>You can add unlimited of new image size for blog, portfolios or sliders. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                  </div>
+               </div>
+
+               <span id="cs-custom-css"></span>
+               <hr />
+               <div class="row">
+                  <div class="span12">
+                     <h3>8) Custom CSS Options</h3>
+                         <table class="table table-bordered table-striped">
+                            <thead>
+                              <tr>
+                                  <th class="span3">#</th>
+                                  <th class="span9">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-error"><strong>Custom CSS</strong></td>
+                                    <td>You can write custom css styles here, use this page, it will be easy for theme update. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                  </div>
+               </div>
+
+              <span id="cs-export"></span>
+               <hr />
+               <div class="row">
+                  <div class="span12">
+                     <h3>9) Export/Import Options</h3>
+                         <table class="table table-bordered table-striped">
+                            <thead>
+                              <tr>
+                                  <th class="span3">#</th>
+                                  <th class="span9">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-error"><strong>Export</strong></td>
+                                    <td>You can <strong>export</strong> framework and color settings. This option for framework backup!. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Import</strong></td>
+                                    <td>You can <strong>import</strong> framework and color settings after install a new wordpress theme. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Reset</strong></td>
+                                    <td>You can <strong>reset</strong> all framework options. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                  </div>
+               </div>
+
+               <span id="cs-extra"></span>
+               <hr />
+               <div class="row">
+                  <div class="span12">
+                     <h3>10) Extra Options</h3>
+                         <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                  <th class="span3">#</th>
+                                  <th class="span9">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-error"><strong>Icomoon Fonts</strong></td>
+                                    <td>You can embed <strong>1600+</strong> icomoon web fonts. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>RTL</strong></td>
+                                    <td>You can rtl support for <strong>Right to Left Languages</strong>. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Boxed Layout</strong></td>
+                                    <td>You can use <strong>boxed</strong> or <strong>wide</strong> layout. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Loader Homepage</strong></td>
+                                    <td>You can enable homepage <strong>loader</strong>, your web site will opening with loading. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>Disable Responsive Layout</strong></td>
+                                    <td>You can enable / disable responsive site. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-error"><strong>One-Click Install</strong></td>
+                                    <td>Shortly, just one-click dump xml xml, like Tools -> Import. For more information you <strong>may check Route Panel.</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                  </div>
+               </div>
+
+
+
+
+            </section>
+			<!-- ========================= SECTION: Option Panel >> END ========================= -->
+
+						<!-- ========================= SECTION: Option Panel >> START ========================= -->
+
+
+
+            <hr />
+
+            <div class="goodbye">
+                <p>Once again, thank you so much for purchasing this theme. <strong>As we said at the beginning, we would be glad to help you if you have any questions relating to this theme.</strong> No guarantees, but we will do our best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the our <a href="http://support.codestarlive.com" target="_blank">support forum</a></p>
+            </div>
+
+            <hr />
+
+            <footer>
+                <p>&copy; Codestar 2014 - 2015</p>
+            </footer>
+
+        </div>
+        <!-- ========================= MAIN CONTAINER >> END ========================= -->
+
+        <!-- loading javascripts -->
+		<script src="assets/js/jquery.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/google-code-prettify/prettify.js"></script>
+
+        <!-- init javascripts -->
+        <script src="assets/js/init.js"></script>
+		<script>
+			jQuery(document).ready(function() {
+				jQuery('.color').children().find('li > strong').css('color', '#0088cc');
+			});
+		</script>
+
+    </body>
+
+</html>

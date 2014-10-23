@@ -1,0 +1,38 @@
+@import "compass";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+$experimental-support-for-opera:      false;
+$experimental-support-for-microsoft:  false;
+$experimental-support-for-khtml:      false;
+
+body{
+  min-width: $container-lg !important;
+}
+
+// Container widths
+.container {
+  @include container-fixed();
+  width: $container-lg;
+  max-width: none !important;
+}
+
+// Fluid container
+.container-fluid {
+  @include container-fixed();
+}
+
+// Row
+.row {
+  @include make-row();
+}
+
+// Columns
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@include loop-grid-columns($grid-columns, md, width);

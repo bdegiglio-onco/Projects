@@ -1,0 +1,1242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Route WordPress Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-04 09:26+0200\n"
+"PO-Revision-Date: 2014-09-04 09:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: Codestar <info@codestarlive.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../search.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../archive.php:17
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../archive.php:19
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../archive.php:21
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../archive.php:23
+msgid "Archives"
+msgstr ""
+
+#: ../searchform.php:12
+#: ../header.php:47
+msgid "Search"
+msgstr ""
+
+#: ../comments.php:34
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:35
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:41
+msgid "Comments are closed."
+msgstr ""
+
+#: ../404.php:17
+msgid "404"
+msgstr ""
+
+#: ../404.php:18
+msgid "Not Found!"
+msgstr ""
+
+#: ../404.php:22
+msgid "Oops! That page can not be found."
+msgstr ""
+
+#: ../404.php:23
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../404.php:29
+msgid "Return Back"
+msgstr ""
+
+#: ../author.php:14
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: ../category.php:14
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../tag.php:14
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../post-formats/content-audio.php:25
+#: ../post-formats/content-gallery.php:24
+#: ../post-formats/content-image.php:24
+#: ../post-formats/content-link.php:33
+#: ../post-formats/content-quote.php:24
+#: ../post-formats/content-aside.php:24
+#: ../post-formats/content-status.php:24
+#: ../post-formats/content-chat.php:24
+#: ../post-formats/content-video.php:24
+#: ../post-formats/content.php:27
+msgid "Read More"
+msgstr ""
+
+#: ../post-formats/content-none.php:12
+msgid "It seems we can not find what you are looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:23
+msgid "Reviews"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:44
+msgid "There are no reviews yet."
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:57
+msgid "Add a review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:57
+msgid "Be the first to review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:58
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:62
+msgid "Name"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:64
+msgid "Email"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:67
+msgid "Submit"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:73
+msgid "Your Rating"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:74
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:75
+msgid "Perfect"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:76
+msgid "Good"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:77
+msgid "Average"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:78
+msgid "Not that bad"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:79
+msgid "Very Poor"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:83
+msgid "Your Review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:98
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: ../woocommerce/myaccount/view-order.php:19
+#, php-format
+msgid "Order <mark class=\"order-number\">%s</mark> was placed on <mark class=\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</mark>."
+msgstr ""
+
+#: ../woocommerce/myaccount/view-order.php:23
+msgid "Order Updates"
+msgstr ""
+
+#: ../woocommerce/myaccount/view-order.php:30
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:16
+#: ../woocommerce/myaccount/my-address.php:19
+#: ../woocommerce/myaccount/my-address.php:25
+msgid "Billing Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:16
+#: ../woocommerce/myaccount/my-address.php:20
+msgid "Shipping Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:40
+msgid "Save Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:36
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:49
+msgid "Edit"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:68
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:20
+msgid "First name"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:24
+msgid "Last name"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:28
+#: ../woocommerce/myaccount/form-login.php:77
+msgid "Email address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:32
+msgid "Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:36
+msgid "Confirm new password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:41
+msgid "Save changes"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:32
+msgid "Order"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:33
+msgid "Date"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:34
+msgid "Status"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:35
+#: ../woocommerce/cart/cart.php:30
+msgid "Total"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:71
+msgid "Pay"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:78
+msgid "Cancel"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:84
+msgid "View"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:21
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:23
+msgid "Username or email"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:27
+msgid "Enter a new password below."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:30
+msgid "New password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:34
+msgid "Re-enter new password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:45
+msgid "Reset Password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:45
+msgid "Save"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:23
+#: ../woocommerce/myaccount/form-login.php:42
+msgid "Login"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:30
+msgid "Username or email address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:34
+#: ../woocommerce/myaccount/form-login.php:84
+msgid "Password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:44
+msgid "Remember me"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:48
+msgid "Lost your password?"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:61
+#: ../woocommerce/myaccount/form-login.php:98
+msgid "Register"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:70
+msgid "Username"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:91
+msgid "Anti-spam"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-add-payment-method.php:40
+msgid "Sorry, it seems that there are no payment methods which support adding a new payment method. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-add-payment-method.php:48
+msgid "Add Payment Method"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:27
+msgid "Product"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:28
+msgid "Price"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:74
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:119
+msgid "Coupon code"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:119
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:127
+msgid "Update Cart"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:127
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:16
+msgid "Cart Totals"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:21
+msgid "Cart Subtotal"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:75
+msgid "Order Total"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:87
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:90
+#, php-format
+msgid "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
+msgstr ""
+
+#: ../woocommerce/cart/cross-sells.php:38
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/cart-empty.php:16
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: ../woocommerce/cart/cart-empty.php:20
+msgid "Return To Shop"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:22
+msgid "Calculate Shipping"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:28
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:45
+#: ../woocommerce/cart/shipping-calculator.php:51
+#: ../woocommerce/cart/shipping-calculator.php:63
+msgid "State / county"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:52
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:72
+msgid "City"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / Zip"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:85
+msgid "Update Totals"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:18
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:30
+msgid "My Account"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:36
+#: ../woocommerce/checkout/thankyou.php:67
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:40
+msgid "Order:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:44
+msgid "Date:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:48
+msgid "Total:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:53
+msgid "Payment method:"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:15
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:19
+msgid "Billing Details"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:38
+msgid "Create an account?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:49
+msgid "Create an account by entering the information below. If you are a returning customer please login at the top of the page."
+msgstr ""
+
+#: ../woocommerce/checkout/form-shipping.php:29
+msgid "Ship to a different address?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-shipping.php:55
+msgid "Additional Information"
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:51
+msgid "Your order"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:150
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:152
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:163
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the <em>Update Totals</em> button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:163
+msgid "Update totals"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:170
+msgid "Place order"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:179
+#, php-format
+msgid "I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; conditions</a>"
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:20
+msgid "Qty"
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:21
+msgid "Totals"
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:78
+msgid "Sorry, it seems that there are no available payment methods for your location. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:88
+msgid "Pay for order"
+msgstr ""
+
+#: ../woocommerce/checkout/form-coupon.php:18
+msgid "Have a coupon?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-coupon.php:19
+msgid "Click here to enter your code"
+msgstr ""
+
+#: ../woocommerce/checkout/cart-errors.php:16
+msgid "There are some issues with the items in your cart (shown above). Please go back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: ../woocommerce/checkout/cart-errors.php:20
+msgid "Return To Cart"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:26
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:42
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:51
+msgid "verified owner"
+msgstr ""
+
+#: ../woocommerce/single-product/related.php:37
+msgid "Related Products"
+msgstr ""
+
+#: ../woocommerce/single-product/up-sells.php:41
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product/product-image.php:20
+msgid "Sale!"
+msgstr ""
+
+#: ../woocommerce/single-product/product-attributes.php:33
+msgid "Weight"
+msgstr ""
+
+#: ../woocommerce/single-product/product-attributes.php:40
+msgid "Dimensions"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:25
+msgid "Choose an option"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:80
+msgid "Clear selection"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:107
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:16
+msgid "Order Details"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:66
+#, php-format
+msgid "Download file%s"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:97
+msgid "Customer details"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:101
+msgid "Email:"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:102
+msgid "Telephone:"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:122
+#: ../woocommerce/order/order-details.php:137
+msgid "N/A"
+msgstr ""
+
+#: ../woocommerce/order/tracking.php:18
+#, php-format
+msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../woocommerce/order/tracking.php:18
+msgid "ago"
+msgstr ""
+
+#: ../woocommerce/order/tracking.php:20
+msgid "and was completed"
+msgstr ""
+
+#: ../woocommerce/order/tracking.php:20
+msgid " ago"
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:17
+msgid "To track your order please enter your Order ID in the box below and press return. This was given to you on your receipt and in the confirmation email you should have received."
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:19
+msgid "Order ID"
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:19
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:20
+msgid "Billing Email"
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:20
+msgid "Email you used during checkout."
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:23
+msgid "Track"
+msgstr ""
+
+#: ../woocommerce/loop/orderby.php:22
+msgid "Default sorting"
+msgstr ""
+
+#: ../woocommerce/loop/orderby.php:23
+msgid "Sort by popularity"
+msgstr ""
+
+#: ../woocommerce/loop/orderby.php:24
+msgid "Sort by average rating"
+msgstr ""
+
+#: ../woocommerce/loop/orderby.php:25
+msgid "Sort by newness"
+msgstr ""
+
+#: ../woocommerce/loop/orderby.php:26
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: ../woocommerce/loop/orderby.php:27
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: ../woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr ""
+
+#: ../woocommerce/loop/result-count.php:30
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: ../woocommerce/loop/no-products-found.php:14
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: ../cs-framework/includes/shortcodes/cs_portfolio.php:138
+#: ../cs-framework/includes/shortcodes/cs_faq.php:36
+msgid "All"
+msgstr ""
+
+#: ../cs-framework/config/cs-enqueue-config.php:32
+msgid "Already loved!"
+msgstr ""
+
+#: ../cs-framework/config/cs-enqueue-config.php:33
+msgid "Error!"
+msgstr ""
+
+#: ../cs-framework/config/cs-actions-config.php:277
+msgid "About the Author:"
+msgstr ""
+
+#: ../cs-framework/config/cs-actions-config.php:287
+msgid "Posts"
+msgstr ""
+
+#: ../cs-framework/config/cs-actions-config.php:381
+msgid "Send"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:107
+msgid "Logout"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:159
+msgid "Cart"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:214
+msgid "WPML is not activated"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:259
+msgid "qTranslate is not activated"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:324
+msgid "Sticky"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:348
+msgid "Leave a comment"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:348
+msgid "1 Comment"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:348
+msgid "% Comments"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:381
+msgid "Previous Post"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:382
+msgid "Next Post"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:494
+msgid "Load More"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:529
+msgid "Previous"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:530
+msgid "Next"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:699
+msgid "Pages"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:706
+msgid "Next page"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:707
+msgid "Previous page"
+msgstr ""
+
+#: ../cs-framework/config/cs-front-end-functions.php:871
+msgid "Please assign a menu from Appearance &gt; Menus"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/parsers.php:42
+#: ../cs-framework/plugins/wordpress-importer/parsers.php:72
+#: ../cs-framework/plugins/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/parsers.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/parsers.php:84
+#: ../cs-framework/plugins/wordpress-importer/parsers.php:89
+#: ../cs-framework/plugins/wordpress-importer/parsers.php:279
+#: ../cs-framework/plugins/wordpress-importer/parsers.php:468
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:134
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:143
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:194
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:198
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:199
+#, php-format
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:215
+#, php-format
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:240
+#, php-format
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:267
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:269
+#, php-format
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:374
+#, php-format
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:511
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:1040
+#, php-format
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:1055
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../cs-framework/plugins/wordpress-importer/wordpress-importer.php:1130
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:196
+#: ../cs-framework/plugins/tgm-plugin-activation/tgm-route-plugins.php:147
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:197
+#: ../cs-framework/plugins/tgm-plugin-activation/tgm-route-plugins.php:148
+msgid "Install Plugins"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:198
+#: ../cs-framework/plugins/tgm-plugin-activation/tgm-route-plugins.php:149
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:210
+#: ../cs-framework/plugins/tgm-plugin-activation/tgm-route-plugins.php:161
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:212
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1961
+#: ../cs-framework/plugins/tgm-plugin-activation/tgm-route-plugins.php:162
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:213
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:552
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2178
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1182
+msgid "Private Repository"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1185
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1190
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1193
+msgid "Required"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1193
+msgid "Recommended"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1196
+msgid "Not Installed"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1198
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1300
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1408
+msgid "Install"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1322
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1409
+msgid "Activate"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1371
+#, php-format
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1387
+msgid "Plugin"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1388
+msgid "Source"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1389
+msgid "Type"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1518
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1626
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1944
+msgid "Install package not available."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1945
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1946
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1947
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1948
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1949
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1960
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2074
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2075
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2084
+msgid "Show Details"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2075
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2084
+msgid "Hide Details"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2076
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2077
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2081
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2082
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2083
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2084
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2085
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2086
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/tgm-route-plugins.php:150
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../cs-framework/plugins/tgm-plugin-activation/tgm-route-plugins.php:163
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../cs-framework/plugins/woocommerce/woocommerce-config.php:203
+msgid "Out of stock"
+msgstr ""
+
+#: ../cs-framework/plugins/woocommerce/woocommerce-config.php:233
+msgid "Order Again"
+msgstr ""
+
+#: ../cs-framework/plugins/woocommerce/woocommerce-config.php:250
+msgid "Search for products"
+msgstr ""
+
