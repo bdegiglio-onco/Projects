@@ -62,17 +62,21 @@ window.presentationData = {
 
 ],
     markers: [{
-        title: 'Introduction',
+        title: 'Checkpoint Inhibitor Therapy',
         timeStart: '00:00:00',
-        timeEnd: '00:00:31'
+        timeEnd: '00:22:16'
     }, {
-        title: 'Mesothelioma',
-        timeStart: '00:00:32',
-        timeEnd: '00:06:35'
+        title: 'Immunotherapy Clinical Cases',
+        timeStart: '00:22:16',
+        timeEnd: '00:33:29'
     }, {
-        title: 'Non-Small Cell Lung Cancer',
-        timeStart: '00:06:36',
-        timeEnd: '00:25:44'
+        title: 'Patient Selection and Sequencing',
+        timeStart: '00:33:29',
+        timeEnd: '00:45:56'
+	},{
+        title: 'Audience Questions ',
+        timeStart: '00:45:56',
+        timeEnd: '00:50:44'
 	}]
 
 };
