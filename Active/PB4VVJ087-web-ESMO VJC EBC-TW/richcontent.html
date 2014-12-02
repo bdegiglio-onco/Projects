@@ -27,7 +27,8 @@
   $(document).ready(function() {
   prime.init({
   //minimum setup
-  uri: 'http://primepresentations.s3.amazonaws.com/2013/vjc_hcc/',
+  uri: 'http://primepresentations.s3.amazonaws.com/2014/vjc-ebc/',
+  jpgCase: '.JPG',
   data: window.presentationData,
   //optional
   syncSlides: false
@@ -36,22 +37,22 @@
 </script>
 <!--End Player -->
 <!-- PRESENTATION -->
-<script src="http://primepresentations.s3.amazonaws.com/2013/vjc_hcc/presentation.js">
+<script src="http://primepresentations.s3.amazonaws.com/2014/vjc-ebc/presentation.js">
 </script>
 <div id="presentation" style="margin-left:7px;">
   <div id="video">
-    <video id="videoplayer" width="460" height="344" poster="http://primepresentations.s3.amazonaws.com/2013/vjc_hcc/video/video.jpg" controls="controls" preload="true">
+    <video id="videoplayer" width="460" height="344" poster="http://primepresentations.s3.amazonaws.com/2014/vjc-ebc/videos/video.jpg" controls="controls" preload="true">
       <!-- HERE ARE THE NATIVE BROWSER FORMATS FOR EVERYONE BUT WINDOWS SO WE USE FLASH -->
 <!--Below is where you will change the videos -->
       <!-- MP4 source must come first for iOS  -->
 
-      <source type="video/mp4" src="http://primepresentations.s3.amazonaws.com/2013/vjc_hcc/video/video.mp4" />
+      <source type="video/mp4" src="http://primepresentations.s3.amazonaws.com/2014/vjc-ebc/videos/video.mp4" />
       <!-- WebM/VP8 for Firefox4, Opera, and Chrome -->
 
-      <source type='video/webm; codecs="vp8, vorbis"' src="http://primepresentations.s3.amazonaws.com/2013/vjc_hcc/video/video.webm" />
+      <source type='video/webm; codecs="vp8, vorbis"' src="http://primepresentations.s3.amazonaws.com/2014/vjc-ebc/videos/video.webm" />
       <!-- Ogg/Vorbis for older Firefox and Opera versions -->
 
-      <source type='video/ogg; codecs="theora, vorbis"' src="http://primepresentations.s3.amazonaws.com/2013/vjc_hcc/video/video.ogv" />
+      <source type='video/ogg; codecs="theora, vorbis"' src="http://primepresentations.s3.amazonaws.com/2014/vjc-ebc/videos/video.ogv" />
     </video>
   </div>
 
