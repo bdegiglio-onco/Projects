@@ -1,0 +1,34 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:N:\prIME\Virtual Journal Club\2011\2011 General Web Banners\Virtual-Journal-Club-General-BD-PPT_Banner_997x157 Folder\Document fonts\._AdobeFnt13.lst
+FileModTime:1317661337
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:KievitOT-Medium
+FamilyName:KievitOT
+StyleName:Medium
+FullName:KievitOT-Medium
+MenuName:KievitOT-Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:N:\prIME\Virtual Journal Club\2011\2011 General Web Banners\Virtual-Journal-Club-General-BD-PPT_Banner_997x157 Folder\Document fonts\KievitOT-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:64464
+FileModTime:1247244766
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,KievitOT-Medium
+NameArray:0,Win,1,KievitOT-Medium
+NameArray:0,Win,16,KievitOT
+%EndFont
+
