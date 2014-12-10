@@ -31,7 +31,7 @@
 
 <link type="text/css" href="/Presentation/VideoPlayer/js/video/sync-false/lib/jscrollpane/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 
-<!--End Library Section – Don't touch order of tags above -->
+<!--End Library Section Dont touch order of tags above -->
 
 <!-- YOUR PLAYER -->
 
